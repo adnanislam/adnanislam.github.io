@@ -53,3 +53,12 @@ header {
     display: inline-block;
     color: #ecf0f1;
 }
+.content {
+  text-align: center;
+}
+
+i {
+  font-size: 5em;
+  color: #1abc9c;
+  margin: 0.5em;
+}
