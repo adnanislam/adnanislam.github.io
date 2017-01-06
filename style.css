@@ -62,3 +62,9 @@ i {
   color: #1abc9c;
   margin: 0.5em;
 }
+
+footer {
+  position: relative;
+  margin-top: 4em;
+  text-align: center;
+}
