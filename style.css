@@ -70,9 +70,10 @@ header img {
 
 .skill {
     display: inline-block;
-    width: 6em;
-    height: 6em;
-    margin: 0.5em;
+    width: 7em;
+    height: 7em;
+    padding: 0.5em;
+    color: #1abc9c;
 }
 
 .skill p {
@@ -82,21 +83,39 @@ header img {
 .skill:hover {
     position: relative;
     bottom: 1em;
+    color: #ecf0f1;
+    background-color: #1abc9c;
 }
 
 .skill:hover p {
     visibility: visible;
 }
 
-i {
-    font-size: 5em;
-    color: #1abc9c;
+.contact {
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    padding: 0.5em;
+    color: #3498db;
 }
 
-.project {
-    display: inline-block;
-    width: 50em;
-    height: 50em;
+.contact:hover {
+    position: relative;
+    bottom: 1em;
+    color: #ecf0f1;
+    background-color: #3498db;
+}
+
+.contact p {
+    visibility: hidden;
+}
+
+.contact:hover p {
+    visibility: visible;
+}
+
+i {
+    font-size: 5em;    
 }
 
 a:visited {
