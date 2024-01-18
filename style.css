@@ -1,8 +1,12 @@
 body {
     background-color: #fffff2;
     font-family: 'Work Sans', sans-serif;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 a, a:visited, a:hover, a:active {
@@ -10,7 +14,6 @@ a, a:visited, a:hover, a:active {
 }
 
 nav {
-    text-align: center;
     background-color: #f9f1f1;
     position: fixed;
     top: 0;
@@ -22,64 +25,18 @@ nav {
     border-width: thin;
 }
 
-header {
+.content {
+    margin-top: 3.5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 3.5em;
-}
-
-header h3 {
-    max-width: 75%;
+    align-items: flex-start;
     text-align: left;
+    max-width: 70%;
 }
 
-.content {
-    text-align: center;
-    padding: 0.5em;
-}
-
-.skill, .contact {
-    display: inline-block;
-    width: 7em;
-    height: 7em;
-    padding: 0.5em;
-}
-
-.skill {
-    color: #1abc9c;
-}
-
-.contact {
-    color: #3498db;
-}
-
-.skill:hover, .contact:hover {
-    position: relative;
-    bottom: 1em;
-    color: #ecf0f1;
-}
-
-.skill:hover {
-    background-color: #1abc9c;
-}
-
-.contact:hover {
-    background-color: #3498db;
-}
-
-.skill p, .contact p {
-    visibility: hidden;
-}
-
-.skill:hover p, .contact:hover p {
-    visibility: visible;
-}
-
-i {
-    font-size: 5em;    
+h2 {
+    align-self: center;
 }
 
 footer {
